@@ -1,0 +1,17 @@
+.textField {
+    composes: dashed-border from './theme.css';
+    display: flex;
+}
+
+.textField textarea {
+    flex: 1;
+
+    padding: 0.5em 0.75em;
+    background: #f4f7f7;
+
+    outline: none;
+    border: none;
+
+    font-family: 'Overpass', sans-serif;
+    font-size: 12pt;
+}

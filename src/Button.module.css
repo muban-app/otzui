@@ -1,0 +1,30 @@
+.button {
+    composes: round from './theme.css';
+    padding: 0.15em 1em;
+
+    display: inline-block;
+    margin: 0.25em 0;
+    user-select: none;
+}
+
+.control {
+    width: 100%;
+}
+
+.default {
+    background: #eddcd2;
+}
+
+.primary {
+    background: #2a9d8f;
+    color: white;
+}
+
+.destructive {
+    background: #d93135;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+}

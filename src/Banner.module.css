@@ -1,0 +1,52 @@
+.banner {
+    composes: round from './theme.css';
+    composes: spacing from './theme.css';
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 0.25em;
+}
+
+.destructive {
+    background: #d93135;
+    color: white;
+}
+
+.default {
+    background: rgba(42, 157, 143, 0.6);
+    color: #333;
+}
+
+.warn {
+    background: #d9c23f;
+    color: #333;
+}
+
+.subtle {
+    background: none;
+    composes: dashed-border from './theme.css';
+}
+
+.primary {
+
+}
+
+.bannerWithIcon {
+    display: grid;
+
+    /* 1:15 ratio */
+    grid-template-columns: 1fr 15fr;
+}
+.bannerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

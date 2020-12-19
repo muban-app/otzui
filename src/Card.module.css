@@ -1,0 +1,9 @@
+.card {
+    /*composes: shadow-1 from './shadow-utils.css';*/
+    composes: spacing from './theme.css';
+    composes: dashed-border from './theme.css';
+
+    display: block;
+    background: #f4f7f7;
+    margin: .25em 0;
+}
